@@ -8,6 +8,6 @@ defmodule HyanServer.Router do
   scope "/api", HyanServer do
     pipe_through :api
 
-    get "/posts", PostController, :index
+    resources "/posts", PostController
   end
 end
