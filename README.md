@@ -1,5 +1,10 @@
 # HyanServer
 
+## Requirements
+
+- Elixir >= 1.4
+- MySQL server >= 5.6 (user: root, password: "")
+
 ## Install
 
 ```
@@ -19,8 +24,11 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 ## Test
 
 ```
-mix test ./test
+mix test
 ```
 
 ## Author
 [castaneai](https://github.com/castaneai)
+
+## License
+MIT
